@@ -28,10 +28,10 @@ app.set("view engine", "ejs");
 // const conn = database("byrnbofcdwa2cgouqo28");
 // const conn = database("project");
 const conn = mysql.createConnection({
-  host: 'localhost',
-  user: 'root', /* MySQL User */
-  password: '', /* MySQL Password */
-  database: 'project' /* MySQL Database */
+  host: 'blgriqztasmo4bnzwqhz-mysql.services.clever-cloud.com',
+  user: 'uo09gm6uh2i6lb4e', /* MySQL User */
+  password: 'uo09gm6uh2i6lb4e', /* MySQL Password */
+  database: 'blgriqztasmo4bnzwqhz' /* MySQL Database */
 });
 
 //? ****** Home Route ******
